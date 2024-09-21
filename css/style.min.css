@@ -18152,7 +18152,7 @@ footer .footer-navbar .nav-item:last-child a {
 
 
 /* From Uiverse.io by cssbuttons-io */ 
-.button {
+.button-message-contact {
   display: inline-block;
   padding: 12px 24px;
   border: 1px solid #ecab23;
@@ -18166,7 +18166,7 @@ footer .footer-navbar .nav-item:last-child a {
   z-index: 1;
 }
 
-.button:before {
+.button-message-contact:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -18181,7 +18181,7 @@ footer .footer-navbar .nav-item:last-child a {
   z-index: -1;
 }
 
-.button:after {
+.button-message-contact:after {
   content: "";
   position: absolute;
   left: 55%;
@@ -18196,18 +18196,18 @@ footer .footer-navbar .nav-item:last-child a {
   z-index: -1;
 }
 
-.button:hover {
+.button-message-contact:hover {
   color: #ffffff;
   border: 1px solid #39bda7;
 }
 
-.button:hover:before {
+.button-message-contact:hover:before {
   top: -35%;
   background-color: #39bda7;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-.button:hover:after {
+.button-message-contact:hover:after {
   top: -45%;
   background-color: #39bda7;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
