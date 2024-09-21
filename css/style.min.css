@@ -18207,6 +18207,13 @@ ul > li {
   list-style-type: none;
 }
 
+/* subnav hide */
+@media screen and (max-width: 970px) {
+  .subnav{
+    display: none;
+  }
+}
+
 /* nav bar */
 
 nav {
