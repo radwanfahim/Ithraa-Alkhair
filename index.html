@@ -31,7 +31,9 @@
     <link rel="stylesheet" href="css/vendors.min.css" />
     <link rel="stylesheet" href="css/icon.min.css" />
     <link rel="stylesheet" href="css/style.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/responsive.min.css" />
+    <link rel="stylesheet" href="demos/accounting/accounting.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -40,7 +42,14 @@
     <link rel="stylesheet" href="demos/hotel-and-resort/hotel-and-resort.css" />
     <link rel="stylesheet" href="demos/finance/finance.css" />
   </head>
-  <body data-mobile-nav-style="classic">
+  <body data-mobile-nav-style="classic" class="custom-cursor">
+    <!-- start cursor -->
+    <div class="cursor-page-inner">
+      <div class="circle-cursor circle-cursor-inner"></div>
+      <div class="circle-cursor circle-cursor-outer"></div>
+    </div>
+
+    <!-- end header -->
     <!-- start header -->
     <header class="position-relative">
       <!-- subnav -->
@@ -2133,6 +2142,124 @@
       </div>
     </section>
     <!-- end section -->
+
+    <!-- start section -->
+    <section class="container" data-aos="fade-up">
+      <h1 class="text-center" style="margin-top: 3em">Countries We Serve</h1>
+
+      <!-- container -->
+      <div class="" style="position: relative">
+        <div>
+          <img
+            style="width: 100vw; height: 100vh; object-fit: cover; opacity: 0.3"
+            src="./images/world-map-1997599_1920.jpg"
+            alt="world map"
+          />
+        </div>
+        <!-- flags -->
+        <div
+          style="
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          "
+        >
+          <div style="display: flex; flex-wrap: wrap; gap: 30px; width: 130%">
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag-United-States-of-America.jpg"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag_of_Canada_(Pantone).png"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag_of_the_United_Kingdom_(3-5).svg.png"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/holand.png"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/denmark.jpg"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag-Belgium.jpg"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag-Germany.jpg"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag-France.jpg"
+              alt=""
+            />
+            <img
+              style="width: 200px; height: 200px; border-radius: 100%"
+              src="./images/Flags/Flag-Italy.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div></div>
+      </div>
+      <div></div>
+    </section>
+    <!-- end section -->
+
+    <!-- section start -->
+    <!-- contact us -->
+    <section style="margin: 5em" class="container" data-aos="fade-down">
+      <h3 style="text-align: center">Contact Us</h3>
+      <form style="display: flex">
+        <img
+          style="width: 60%"
+          src="https://i.pinimg.com/originals/13/fa/be/13fabe368d08211706da14d461727b50.gif"
+          alt=""
+        />
+
+        <div>
+          <!-- name -->
+          <label for="name">Name</label>
+          <input type="text" placeholder="John Wick" />
+
+          <!-- email -->
+          <label class="mt-5" for="email">Email</label>
+          <input type="email" placeholder="Example@mail.com" />
+
+          <!-- Phone -->
+          <label class="mt-5" for="phone">Phone</label>
+          <input type="tel" placeholder="XXX-XXX-XXXX" />
+
+          <!-- message -->
+          <label class="mt-5" for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            placeholder="Type your message here..."
+          ></textarea>
+          <button style="width: 100%;" class="button">Send Message</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- section end -->
+
     <!-- start footer -->
     <footer
       class="bg-very-light-gray pb-50px sm-pt-20px xs-pb-30px background-repeat background-position-center sm-background-image-none"
@@ -2387,6 +2514,11 @@
           crossFade: true,
         },
       });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 
