@@ -18358,6 +18358,8 @@ nav input {
   display: none;
 }
 
+
+
 /* guide login btn animation */
 .guide-login {
   background: transparent;
@@ -18454,4 +18456,15 @@ nav input {
 
 .agent-login:hover::before {
   box-shadow: inset 0 0 0 10em #c29978;
+}
+
+
+@media screen and (max-width: 970px) {
+  .guide-login{
+    display: none;
+  }
+  .agent-login{
+    display: none;
+
+  }
 }
