@@ -3530,3 +3530,22 @@ function initMap() {
     }
   });
 }
+
+
+// navbar sticky
+window.onscroll = function () {
+  makeNavbarSticky();
+};
+
+var navbar = document.getElementById("navbar");
+console.log(navbar);
+
+var sticky = navbar.offsetTop; // Get the offset position of the navbar
+
+function makeNavbarSticky() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("navbar");
+  } else {
+    navbar.classList.remove("navbar");
+  }
+}

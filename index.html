@@ -90,7 +90,7 @@
 
           <!-- middle -->
           <!-- logo -->
-          <img class="w-10 pb-1" src="./images/LOGO COLOR.png" alt="logo" />
+          <img class="w-15 pb-1" src="./images/LOGO COLOR.png" alt="logo" />
           <!-- right side -->
           <div ">
           <div>
@@ -121,40 +121,172 @@
     </header>
     <!-- end header -->
 
-    <nav>
+    <nav id="navbar" class="position-navbar">
       <div class="wrapper">
         <input type="radio" name="slider" id="menu-btn" />
         <input type="radio" name="slider" id="close-btn" />
         <ul class="nav-links">
           <label for="close-btn" class="btn close-btn"
             ><i class="fas fa-times"></i
-          ></label>
+          >
+        
+        </label>
 
-          <div class="left-side-nav">
+<!-- nav desktop -->
+        <!-- packages -->
+      
+<a class="left-side-nav-desktop">
+  <div class="text">
+    <span>Packages</span>
+
+  </div>
+  <div class="clone">
+    <span>Packages</span>
+  </div>
+  <svg
+    stroke-width="2"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    fill="none"
+    class="h-6 w-6"
+    xmlns="http://www.w3.org/2000/svg"
+    width="20px"
+  ></a>
+
+  <!-- About Us -->
+  <a class="left-side-nav-desktop">
+    <div class="text">
+      <span>About</span>
+   
+  
+    </div>
+    <div class="clone">
+     
+      <span>Us</span>
+    </div>
+    <svg
+      stroke-width="2"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      fill="none"
+      class="h-6 w-6"
+      xmlns="http://www.w3.org/2000/svg"
+      width="20px"
+    ></a>
+
+    <!-- Services -->
+    <a class="left-side-nav-desktop">
+      <div class="text">
+        <span>Services</span>
+    
+    
+      </div>
+      <div class="clone">
+        <span>Services</span>
+   
+      </div>
+      <svg
+        stroke-width="2"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+      ></a>
+
+         <!-- Careers -->
+    <a class="left-side-nav-desktop">
+      <div class="text">
+        <span>Careers</span>
+    
+    
+      </div>
+      <div class="clone">
+        <span>Careers</span>
+   
+      </div>
+      <svg
+        stroke-width="2"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+      ></a>
+
+            <!-- Strategic Partners -->
+    <a class="left-side-nav-desktop">
+      <div class="text">
+        <span>Strategic</span>
+   
+    
+    
+      </div>
+      <div class="clone">
+        <span>Partners</span>
+   
+      </div>
+      <svg
+        stroke-width="2"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+      ></a>
+
+             <!-- Contact Us -->
+    <a class="left-side-nav-desktop">
+      <div class="text">
+        <span>Contact</span>
+      
+    
+      </div>
+      <div class="clone">
+     
+        <span>Us</span>
+   
+      </div>
+      <svg
+        stroke-width="2"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        fill="none"
+        class="h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20px"
+      ></a>
+
+<!-- nav mobile -->
+          <div class="left-side-nav-mobile">
             <a href="#">Packages</a>
           </div>
-          <div class="left-side-nav">
+          <div class="left-side-nav-mobile">
             <a href="#">About Us</a>
           </div>
-          <div class="left-side-nav">
+          <div class="left-side-nav-mobile">
             <a href="#">Services</a>
           </div>
-          <div class="left-side-nav">
+          <div class="left-side-nav-mobile">
             <a href="#">Careers</a>
           </div>
-          <div class="left-side-nav">
+          <div class="left-side-nav-mobile">
             <a href="#">Strategic Partners</a>
           </div>
 
-          <div class="left-side-nav" style="margin-right: 2em">
+          <div class="left-side-nav-mobile" style="margin-right: 2em">
             <a href="#">Contact Us</a>
           </div>
         </ul>
+
         <label for="menu-btn" class="btn menu-btn"
           ><i class="fas fa-bars"></i
         ></label>
         <div style="display: flex; gap: 1em">
-          <button class="guide-login" >
+          <button class="guide-login">
             <span>Guide Login</span>
           </button>
 
@@ -162,6 +294,8 @@
             <span>Agent Login</span>
           </button>
         </div>
+        <img class="logo-subnav" src="./images/LOGO COLOR.png" alt="" />
+        <div class="subnav-space"></div>
       </div>
     </nav>
 
@@ -330,29 +464,17 @@
     <!-- start section -->
     <!-- about  -->
     <section style="position: relative">
-      <div>
-        <img
-          style="
-            position: absolute;
-            z-index: -99;
-            opacity: 0.1;
-            filter: brightness(1);
-            width: 100vw;
-          "
-          src="./images/PATTERN.png"
-          alt=""
-        />
-      </div>
+      <div></div>
       <div
-        class="background-position-center background-repeat"
+        class="background-position-center background-repeat about-wrap"
         style="
-          background-image: url('images/vertical-center-line-bg.svg');
+          background-image: url('images/PATTERN.png');
           padding-top: 100px;
           padding-bottom: 100px;
         "
       >
         <div class="container">
-          <div class="row align-items-center mb-12 md-mb-17 xs-mb-25">
+          <div class="row align-items-center mb-12 md-mb-0">
             <div
               class="col-lg-5 md-mb-50px"
               data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [-90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 800, "delay": 200, "easing": "easeOutCirc" }'
@@ -371,7 +493,7 @@
               </p>
               <div class="d-inline-block w-100">
                 <a
-                  href="demo-hotel-and-resort-about-us.html"
+                  href="#"
                   class="btn btn-extra-large btn-switch-text btn-dark-gray btn-box-shadow btn-round-edge d-inline-block align-middle me-30px xs-me-10px xs-mt-20px"
                 >
                   <span>
@@ -392,25 +514,28 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 position-relative offset-lg-1">
+            <div class="col-lg-6 position-relative offset-lg-1 about-email">
               <span
                 class="fs-90 position-absolute left-60px md-left-100px sm-left-70px xs-left-10px top-90px xs-top-50px text-dark-gray fw-700 z-index-1"
                 data-bottom-top="transform: translateY(50px) scale(1,1)"
                 data-top-bottom="transform: translateY(-50px) scale(1,1)"
                 data-anime='{ "opacity": [0,1], "duration": 600, "delay": 1500, "staggervalue": 300, "easing": "easeOutQuad" }'
                 ><span
-                  class="fs-15 fw-600 d-table lh-16 text-uppercase text-medium-gray"
-                  >Email Us</span
-                >care@ithraa.group</span
-              >
+                  class="fs-15 fw-600 d-table lh-16 text-uppercase text-dark-gray"
+                  >Email Us</span>
+                  <span class="text-dark-gray">
+                    care@ithraa.group
+                  </span>
+              </span>
               <div
                 class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end"
                 data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'
               >
                 <img
                   class="w-100"
-                  src="images/demo-hotel-and-resort-home-01.jpg"
+                  src="images/hushaan-fromtinyisles-EWtprB5HAL0-unsplash.jpg"
                   alt=""
+                "
                 />
               </div>
               <div
@@ -421,7 +546,7 @@
               >
                 <img
                   class="w-100 border-radius-4px"
-                  src="images/demo-hotel-and-resort-home-02.jpg"
+                  src="images/hassan-altarazi-gP2i2agfPFE-unsplash.jpg"
                   alt=""
                 />
               </div>
@@ -816,270 +941,7 @@
       </div>
     </section>
     <!-- end section -->
-    <!-- start section -->
-    <section
-      class="background-position-center background-repeat"
-      style="background-image: url('images/vertical-center-line-bg.svg')"
-    >
-      <div class="container overlap-section">
-        <div
-          class="row bg-white box-shadow-extra-large border-radius-6px ps-5 pe-5 pt-3 pb-3 g-0 sm-p-6 sm-ps-19 align-items-center mb-8 overflow-hidden position-relative"
-        >
-          <div class="col-lg-2 col-md-3 text-center sm-mb-25px">
-            <img src="images/demo-hotel-and-resort-home-09.png" alt="" />
-          </div>
-          <div class="col-md-6 text-center text-md-start sm-mb-25px">
-            <div class="fs-26 alt-font fw-500 text-dark-gray ls-minus-05px">
-              Work alongside with the kindest and brightest in hospitality.
-              <span class="text-decoration-line-bottom fw-600"
-                >From finance to housekeeping and everything in between.</span
-              >
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-3 text-center">
-            <img
-              class="md-w-85 sm-w-auto"
-              src="images/demo-hotel-and-resort-home-10.png"
-              alt=""
-            />
-          </div>
-          <div
-            class="vertical-title-center align-items-center position-absolute top-0px left-0px bg-base-color p-10px w-50px h-100 w-10px z-index-9"
-          >
-            <div class="title fs-15 ls-1px text-white fw-600 text-uppercase">
-              Join Our Team
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row justify-content-center mb-5 xs-mb-7">
-          <div
-            class="col-md-8 text-center"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-          >
-            <h2 class="alt-font mb-5px text-dark-gray ls-minus-2px">
-              Exclusive Offers
-            </h2>
-            <span class="d-inline-block">Enjoy All The Hajj Offers</span>
-          </div>
-        </div>
-        <div
-          class="row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center mb-9"
-          data-anime='{ "el": "childs", "translateY": [-30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-        >
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large"
-            >
-              <img
-                style="height: 300px"
-                src="images/yasmine-arfaoui-TBvVY4KNIQk-unsplash.jpg"
-                alt=""
-              />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-50px text-center"
-                >
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >Exclusive</span
-                    >
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"
-                    ></div>
-                    <h6 class="alt-font text-white mb-0">Gold package</h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href=""
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block"
-                    >
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"
-                      ></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Get 40% off</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07 md-mb-30px xs-mb-15px">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large"
-            >
-              <img
-                style="height: 300px"
-                src="images/amien-taryamin-IEcqd914qpw-unsplash.jpg"
-                alt=""
-              />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center"
-                >
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >Unbundled</span
-                    >
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"
-                    ></div>
-                    <h6 class="alt-font text-white mb-0">Silver package</h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href=""
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block"
-                    >
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"
-                      ></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Get 30% off</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-          <!-- start interactive banner item -->
-          <div class="col interactive-banner-style-07">
-            <figure
-              class="mb-0 border-radius-6px overflow-hidden box-shadow-quadruple-large-hover box-shadow-quadruple-large"
-            >
-              <img
-                style="height: 300px"
-                src="images/said-alamri-PQP7_7kFCxA-unsplash.jpg"
-                alt=""
-              />
-              <div class="overlay-bg bg-dark-gray opacity-extra-medium"></div>
-              <figcaption>
-                <div
-                  class="hover-content align-items-center d-flex flex-column justify-content-center h-100 p-60px text-center"
-                >
-                  <div class="w-65 lg-w-90 mt-auto mb-auto">
-                    <span class="fs-14 fw-500 ls-2px text-white text-uppercase"
-                      >Wellness</span
-                    >
-                    <div
-                      class="divider-style-03 divider-style-03-01 border-color-transparent-white-very-light pt-15px mt-10px"
-                    ></div>
-                    <h6 class="alt-font text-white mb-0">Bronze package</h6>
-                  </div>
-                  <div class="hover-show-content text-center">
-                    <a
-                      href="demo-hotel-and-resort-bistro.html"
-                      class="bg-base-color w-55px h-55px rounded-circle position-relative mx-auto d-block"
-                    >
-                      <i
-                        class="bi bi-arrow-right-short icon-extra-medium absolute-middle-center text-white"
-                      ></i>
-                    </a>
-                  </div>
-                  <div class="hover-hide-content">
-                    <span
-                      class="fs-13 lh-34 text-dark-gray text-uppercase bg-white ps-20px pe-20px d-inline-block border-radius-4px fw-700"
-                      >Get 20% off</span
-                    >
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end interactive banner item -->
-        </div>
-        <div
-          class="row row-cols-1 row-cols-md-4 row-cols-sm-2 text-center justify-content-center clients-style-05 mb-4 sm-mb-7"
-          data-anime='{ "el": "childs", "opacity": [0,1], "duration": 500, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'
-        >
-          <!-- start client item -->
-          <div class="col sm-mb-30px">
-            <div class="client-box">
-              <a href="#"
-                ><img
-                  src="images/marten-bjork-n_IKQDCyrG0-unsplash.jpg"
-                  class="h-55px"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-          <!-- end client item -->
-          <!-- start client item -->
-          <div class="col sm-mb-30px">
-            <div class="client-box">
-              <a href="#"
-                ><img
-                  src="images/marten-bjork-n_IKQDCyrG0-unsplash.jpg"
-                  class="h-55px"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-          <!-- end client item -->
-          <!-- start client item -->
-          <div class="col xs-mb-30px">
-            <div class="client-box">
-              <a href="#"
-                ><img
-                  src="images/marten-bjork-n_IKQDCyrG0-unsplash.jpg"
-                  class="h-55px"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-          <!-- end client item -->
-          <!-- start client item -->
-          <div class="col">
-            <div class="client-box">
-              <a href="#"
-                ><img
-                  src="images/marten-bjork-n_IKQDCyrG0-unsplash.jpg"
-                  class="h-55px"
-                  alt=""
-              /></a>
-            </div>
-          </div>
-          <!-- end client item -->
-        </div>
-        <div class="row justify-content-center align-items-center">
-          <div
-            class="col-12 text-center last-paragraph-no-margin"
-            data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
-          >
-            <div
-              class="d-inline-block align-middle bg-dark-gray fw-600 text-white text-uppercase border-radius-4px ps-15px pe-15px fs-12 me-10px md-m-5px"
-            >
-              Awesome
-            </div>
-            <div
-              class="d-inline-block align-middle text-dark-gray fs-20 fw-500"
-            >
-              <span class="text-decoration-line-bottom fw-600"
-                >Get 20% discount</span
-              >
-              on hotels booking with above websites.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
+   
     <!-- start section -->
     <section class="p-0 overflow-hidden">
       <div class="container-fluid p-0">
@@ -1177,12 +1039,12 @@
                         <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center"
                         >
-                          <div class="fs-30 fw-700 text-dark-gray">
+                          <div class="fs-30 sm-fs-14 fw-700 text-dark-gray">
                             <span
-                              class="fs-16 fw-500 d-table lh-22 text-medium-gray"
+                              class="fs-16 sm-fs-14 fw-500 d-table lh-22 sm-lh-normal text-medium-gray"
                               >Departure 09 Jun 2024</span
                             >
-                            Return 02 Jul 2024
+                            <div>Return 02 Jul 2024</div>
                           </div>
                         </div>
                         <div
@@ -1348,15 +1210,13 @@
                         <div
                           class="ps-40px pe-40px h-110px bg-white d-flex align-items-center"
                         >
-                          <div class="fs-30 fw-700 text-dark-gray">
+                          <div class="fs-30 sm-fs-14 fw-700 text-dark-gray">
                             <span
-                              class="fs-16 fw-500 d-table lh-22 text-medium-gray"
+                              class="fs-16 sm-fs-14 fw-500 d-table lh-22 text-medium-gray"
                             >
                               Departure 11 Jun 2024</span
                             >
-                            <div style="font-size: 28px">
-                              Return 24 Jun 2024
-                            </div>
+                            <div class="fs-30 sm-fs-14">Return 24 Jun 2024</div>
                           </div>
                         </div>
                         <div
