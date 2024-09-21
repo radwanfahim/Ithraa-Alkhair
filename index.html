@@ -40,7 +40,6 @@
     />
 
     <link rel="stylesheet" href="demos/hotel-and-resort/hotel-and-resort.css" />
-    <link rel="stylesheet" href="demos/finance/finance.css" />
   </head>
   <body data-mobile-nav-style="classic" class="custom-cursor">
     <!-- start cursor -->
@@ -119,34 +118,56 @@
           </div>
         </div>
       </div>
-
-      <div class="divider"></div>
-
-      <div class="menu-wrap">
-        <!-- nav -->
-        <nav class="mt-1 d-flex justify-content-between align-items-center">
-          <!-- menu -->
-          <div>
-            <ul class="d-flex align-items-center gap-3 menu-item">
-              <li class="nav-hover fw-bold">Packages</li>
-              <li class="nav-hover fw-bold">About Us</li>
-              <li class="nav-hover fw-bold">Services</li>
-              <li class="nav-hover fw-bold">Careers</li>
-              <li class="nav-hover fw-bold">Strategic Partners</li>
-              <li class="nav-hover fw-bold">Contact Us</li>
-            </ul>
-          </div>
-
-          <div></div>
-          <!-- auth -->
-          <div>
-            <button class="btn">Guide Login</button>
-            <button class="btn agent-login">Agent Login</button>
-          </div>
-        </nav>
-      </div>
     </header>
     <!-- end header -->
+
+    <nav>
+      <div class="wrapper">
+        <input type="radio" name="slider" id="menu-btn" />
+        <input type="radio" name="slider" id="close-btn" />
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"
+            ><i class="fas fa-times"></i
+          ></label>
+
+          <div class="left-side-nav">
+            <a href="#">Packages</a>
+          </div>
+          <div class="left-side-nav">
+            <a href="#">About Us</a>
+          </div>
+          <div class="left-side-nav">
+            <a href="#">Services</a>
+          </div>
+          <div class="left-side-nav">
+            <a href="#">Careers</a>
+          </div>
+          <div class="left-side-nav">
+            <a href="#">Strategic Partners</a>
+          </div>
+
+          <div class="left-side-nav" style="margin-right: 2em;">
+            <a href="#">Contact Us</a>
+          </div>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <div style="display:flex; gap:1em">
+        
+          <button class="guide-login">
+            
+            <span>Guide Login</span>
+        </button>
+     
+          
+        <button class="agent-login">
+            
+          <span>Agent Login</span>
+      </button>
+        </div>
+      </div>
+    </nav>
 
     <!-- swiper -->
     <div class="swiper mySwiper">
@@ -2265,53 +2286,52 @@
     </section>
     <!-- end section -->
 
-
     <!-- section start -->
     <!-- contact us -->
-    <section style="margin: 5em; width: 100%;"  data-aos="fade-down">
+    <section style="margin: 5em; width: 100%" data-aos="fade-down">
       <div class="container">
-      <h3 style="text-align: center">Contact Us</h3>
-      <form
-        style="
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          width: 100%;
-        "
-      >
-        <img
-          style="width: 40%"
-          src="https://i.pinimg.com/originals/13/fa/be/13fabe368d08211706da14d461727b50.gif"
-          alt=""
-        />
+        <h3 style="text-align: center">Contact Us</h3>
+        <form
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+          "
+        >
+          <img
+            style="width: 40%"
+            src="https://i.pinimg.com/originals/13/fa/be/13fabe368d08211706da14d461727b50.gif"
+            alt=""
+          />
 
-        <div >
-          <!-- name -->
-          <label for="name">Name</label>
-          <input type="text" placeholder="John Wick" />
+          <div>
+            <!-- name -->
+            <label for="name">Name</label>
+            <input type="text" placeholder="John Wick" />
 
-          <!-- email -->
-          <label class="mt-5" for="email">Email</label>
-          <input type="email" placeholder="Example@mail.com" />
+            <!-- email -->
+            <label class="mt-5" for="email">Email</label>
+            <input type="email" placeholder="Example@mail.com" />
 
-          <!-- Phone -->
-          <label class="mt-5" for="phone">Phone</label>
-          <input type="tel" placeholder="XXX-XXX-XXXX" />
+            <!-- Phone -->
+            <label class="mt-5" for="phone">Phone</label>
+            <input type="tel" placeholder="XXX-XXX-XXXX" />
 
-          <!-- message -->
-          <label class="mt-5" for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="4"
-            cols="50"
-            placeholder="Type your message here..."
-          ></textarea>
-          <button style="width: 100%" class="button-message-contact">
-            Send Message
-          </button>
-        </div>
-      </form>
+            <!-- message -->
+            <label class="mt-5" for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              cols="50"
+              placeholder="Type your message here..."
+            ></textarea>
+            <button style="width: 100%" class="button-message-contact">
+              Send Message
+            </button>
+          </div>
+        </form>
       </div>
     </section>
 
