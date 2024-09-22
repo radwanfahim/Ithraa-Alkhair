@@ -18246,7 +18246,10 @@ ul > li {
 }
 
 .wrapper .nav-links {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
 }
 .nav-links li {
   list-style: none;
@@ -18472,6 +18475,11 @@ nav input {
 }
 
 @media screen and (max-width: 970px) {
+
+  .header-details-txt-hidden{
+    display: none;
+  }
+
   .guide-login {
     display: none;
   }
@@ -18526,10 +18534,6 @@ nav input {
   grid-column: span 2 / span 2;
 }
 
-/* contact us */
-.contact-us{
-
-}
 
 .form-contact-us{
   display: block !important;
@@ -18543,7 +18547,7 @@ nav input {
 
 /* nav item */
 .left-side-nav-desktop {
-  width: 6em;
+  width: 12em;
   height: 5px;
   overflow: hidden;
   border: none;
@@ -18635,3 +18639,5 @@ nav input {
 .left-side-nav-desktop:hover svg {
   transform: translateY(-50%) rotate(-90deg);
 }
+
+

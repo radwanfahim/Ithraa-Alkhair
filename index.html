@@ -25,7 +25,21 @@
       href="images/apple-touch-icon-114x114.png"
     />
 
+    <!-- LINK slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
 
+    <link rel="stylesheet" href="./css/slider.css" />
 
     <!-- google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin />
@@ -59,35 +73,28 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- left side -->
           <div class="social-top d-flex align-items-center gap-2">
-            <!-- <p class="p-0 m-0">Follow Us:</p> -->
-            <!-- social ico -->
-            <div class="d-flex align-items-center gap-3">
-              <!-- facebook -->
-              <img
-                class="ico-subnav"
-                src="./images/facebook.png"
-                alt="facebook"
-              />
+            <div>
+              <div class="d-flex align-items-center gap-3">
+                <div class="d-flex gap-1 align-items-center">
+                  <!-- call -->
+                  <img
+                    class="ico-subnav"
+                    src="./images/telephone.png"
+                    alt="phone"
+                  />
+                  <p class="m-0 p-0">+966920031117</p>
+                </div>
 
-              <!-- instagram -->
-              <img
-                class="ico-subnav"
-                src="./images/instagram.png"
-                alt="instagram"
-              />
-
-              <!-- twitter -->
-              <img
-                class="ico-subnav"
-                src="./images/twitter.png"
-                alt="twitter"
-              />
-              <!-- youtube -->
-              <img
-                class="ico-subnav"
-                src="./images/youtube.png"
-                alt="youtube"
-              />
+                <!-- language Switcher -->
+                <div class="d-flex gap-1 align-items-center">
+                  <img
+                    class="ico-subnav"
+                    src="./images/united-kingdom.png"
+                    alt="eng"
+                  />
+                  <p class="m-0 p-0">English</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -96,174 +103,148 @@
           <img class="w-15 pb-1" src="./images/LOGO COLOR.png" alt="logo" />
           <!-- right side -->
           <div ">
-          <div>
-            <div class="d-flex align-items-center gap-3">
-              <div class="d-flex gap-1 align-items-center">
-                <!-- call -->
-                <img
-                  class="ico-subnav"
-                  src="./images/telephone.png"
-                  alt="phone"
-                />
-                <p class="m-0 p-0">+966920031117</p>
-              </div>
+          <div style="display: flex; gap: 1em">
+            <button class="guide-login">
+              <span>Guide Login</span>
+            </button>
 
-              <!-- language Switcher -->
-              <div class="d-flex gap-1 align-items-center">
-                <img
-                  class="ico-subnav"
-                  src="./images/united-kingdom.png"
-                  alt="eng"
-                />
-                <p class="m-0 p-0">English</p>
-              </div>
-            </div>
+            <button class="agent-login">
+              <span>Agent Login</span>
+            </button>
           </div>
         </div>
       </div>
     </header>
     <!-- end header -->
 
-    <nav id="navbar" class="position-navbar">
+    <!-- add id="navbar" to create sticky navbar-->
+
+    <nav class="position-navbar">
       <div class="wrapper">
         <input type="radio" name="slider" id="menu-btn" />
         <input type="radio" name="slider" id="close-btn" />
         <ul class="nav-links">
           <label for="close-btn" class="btn close-btn"
-            ><i class="fas fa-times"></i
-          >
-        
-        </label>
+            ><i class="fas fa-times"></i>
+          </label>
 
-<!-- nav desktop -->
-        <!-- packages -->
-      
-<a class="left-side-nav-desktop">
-  <div class="text">
-    <span>Packages</span>
+          <!-- nav desktop -->
+          <!-- packages -->
 
-  </div>
-  <div class="clone">
-    <span>Packages</span>
-  </div>
-  <svg
-    stroke-width="2"
-    stroke="currentColor"
-    viewBox="0 0 24 24"
-    fill="none"
-    class="h-6 w-6"
-    xmlns="http://www.w3.org/2000/svg"
-    width="20px"
-  ></a>
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>Packages</span>
+            </div>
+            <div class="clone">
+              <span>Packages</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-  <!-- About Us -->
-  <a class="left-side-nav-desktop">
-    <div class="text">
-      <span>About</span>
-   
-  
-    </div>
-    <div class="clone">
-     
-      <span>Us</span>
-    </div>
-    <svg
-      stroke-width="2"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      fill="none"
-      class="h-6 w-6"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20px"
-    ></a>
+          <!-- About Us -->
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>About Us</span>
+            </div>
+            <div class="clone">
+              <span>About Us</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-    <!-- Services -->
-    <a class="left-side-nav-desktop">
-      <div class="text">
-        <span>Services</span>
-    
-    
-      </div>
-      <div class="clone">
-        <span>Services</span>
-   
-      </div>
-      <svg
-        stroke-width="2"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        fill="none"
-        class="h-6 w-6"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20px"
-      ></a>
+          <!-- Services -->
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>Services</span>
+            </div>
+            <div class="clone">
+              <span>Services</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-         <!-- Careers -->
-    <a class="left-side-nav-desktop">
-      <div class="text">
-        <span>Careers</span>
-    
-    
-      </div>
-      <div class="clone">
-        <span>Careers</span>
-   
-      </div>
-      <svg
-        stroke-width="2"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        fill="none"
-        class="h-6 w-6"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20px"
-      ></a>
+          <!-- Careers -->
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>Careers</span>
+            </div>
+            <div class="clone">
+              <span>Careers</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-            <!-- Strategic Partners -->
-    <a class="left-side-nav-desktop">
-      <div class="text">
-        <span>Strategic</span>
-   
-    
-    
-      </div>
-      <div class="clone">
-        <span>Partners</span>
-   
-      </div>
-      <svg
-        stroke-width="2"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        fill="none"
-        class="h-6 w-6"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20px"
-      ></a>
+          <!-- Strategic Partners -->
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>Strategic Partners</span>
+            </div>
+            <div class="clone">
+              <span>Strategic Partners</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-             <!-- Contact Us -->
-    <a class="left-side-nav-desktop">
-      <div class="text">
-        <span>Contact</span>
-      
-    
-      </div>
-      <div class="clone">
-     
-        <span>Us</span>
-   
-      </div>
-      <svg
-        stroke-width="2"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        fill="none"
-        class="h-6 w-6"
-        xmlns="http://www.w3.org/2000/svg"
-        width="20px"
-      ></a>
+          <!-- Contact Us -->
+          <a class="left-side-nav-desktop">
+            <div class="text">
+              <span>Contact Us</span>
+            </div>
+            <div class="clone">
+              <span>Contact Us</span>
+            </div>
+            <svg
+              stroke-width="2"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20px"
+            ></svg
+          ></a>
 
-<!-- nav mobile -->
+          <!-- nav mobile -->
           <div class="left-side-nav-mobile">
             <a href="#">Packages</a>
           </div>
@@ -288,23 +269,86 @@
         <label for="menu-btn" class="btn menu-btn"
           ><i class="fas fa-bars"></i
         ></label>
-        <div style="display: flex; gap: 1em">
-          <button class="guide-login">
-            <span>Guide Login</span>
-          </button>
 
-          <button class="agent-login">
-            <span>Agent Login</span>
-          </button>
-        </div>
         <img class="logo-subnav" src="./images/LOGO COLOR.png" alt="" />
         <div class="subnav-space"></div>
       </div>
     </nav>
 
-    <!-- TODO header -->
+    <!-- SECTION header -->
+    <header>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="./images/hajj-hero-2.jpg" alt="images not found" />
+          <div class="cover">
+            <div class="container">
+              <div class="header-content">
+                <div class="line"></div>
+                <h2>Welcome to the Hajj Journey</h2>
+                <h1 class="lh-normal">
+                  Embark on the Sacred Pilgrimage to Makkah
+                </h1>
+                <h4 class="header-details-txt-hidden">
+                  Welcome to your trusted resource for Hajj. Whether you're a
+                  first-time pilgrim or returning for this sacred journey, we're
+                  here to help you every step of the way. Explore all the
+                  information and services needed to make your pilgrimage
+                  meaningful, safe, and organized.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="./images/yasmine-arfaoui-qbvAboqHkBg-unsplash.jpg"
+            alt="images not found"
+          />
+          <div class="cover">
+            <div class="container">
+              <div class="header-content">
+                <div class="line animated bounceInLeft"></div>
+                <h2>Hajj Packages & Services</h2>
+                <h1 class="lh-normal">
+                  Affordable and Comfortable Pilgrimage Plans
+                </h1>
+                <h4 class="header-details-txt-hidden">
+                  Choose from a range of Hajj packages tailored to your needs
+                  and budget. Our packages include flights, accommodation,
+                  transportation, and guidance, ensuring you have a stress-free
+                  pilgrimage experience.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img
+            src="./images/ali-burhan-2HgHr60mWVo-unsplash.jpg"
+            alt="images not found"
+          />
+          <div class="cover">
+            <div class="container">
+              <div class="header-content">
+                <div class="line animated bounceInLeft"></div>
+                <h2>Travel & Accommodation</h2>
+                <h1 class="lh-normal">
+                  Luxury Hotels and Transport for Pilgrims
+                </h1>
+                <h4 class="header-details-txt-hidden">
+                  Stay in comfort during your pilgrimage. We offer a variety of
+                  accommodation options, from luxury hotels near the Masjid
+                  al-Haram to more budget-friendly choices. Reliable
+                  transportation is also provided to and from the holy sites.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <!-- start section -->
+    <!-- SECTION details section -->
     <section class="bg-very-light-gray half-section ps-6 pe-6">
       <div class="container-fluid">
         <div
@@ -319,15 +363,13 @@
               <div
                 class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px"
               >
-                <i
-                  class="line-icon-Medal-2 icon-extra-large text-base-color"
-                ></i>
+                <i class="line-icon-Email icon-extra-large text-base-color"></i>
               </div>
               <div class="feature-box-content last-paragraph-no-margin">
                 <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Five stars luxury resort</span
+                  >Email Address</span
                 >
-                <p>Experience a unique stay.</p>
+                <p>care@ithraa.group</p>
               </div>
             </div>
           </div>
@@ -340,15 +382,11 @@
               <div
                 class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px"
               >
-                <i
-                  class="line-icon-Moustache-Smiley icon-extra-large text-base-color"
-                ></i>
+                <i class="line-icon-Phone icon-extra-large text-base-color"></i>
               </div>
               <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Well trained manpower</span
-                >
-                <p>Dedicated meal courses.</p>
+                <span class="alt-font text-dark-gray fs-22 ls-0px">Mobile</span>
+                <p>+966920031117</p>
               </div>
             </div>
           </div>
@@ -362,33 +400,17 @@
                 class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px"
               >
                 <i
-                  class="line-icon-French-Fries icon-extra-large text-base-color"
+                  class="line-icon-Location-2 icon-extra-large text-base-color"
                 ></i>
               </div>
               <div class="feature-box-content last-paragraph-no-margin">
                 <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Fine dining restaurants</span
+                  >Address</span
                 >
-                <p>Discover a medley of flavours.</p>
-              </div>
-            </div>
-          </div>
-          <!-- end features box item -->
-          <!-- start features box item -->
-          <div class="col icon-with-text-style-10">
-            <div class="feature-box ps-8 pe-8 xl-ps-5 xl-pe-5">
-              <div
-                class="feature-box-icon feature-box-icon-rounded w-120px h-120px rounded-circle mb-20px"
-              >
-                <i
-                  class="line-icon-Life-Safer icon-extra-large text-base-color"
-                ></i>
-              </div>
-              <div class="feature-box-content last-paragraph-no-margin">
-                <span class="alt-font text-dark-gray fs-22 ls-0px"
-                  >Large swimming pool</span
-                >
-                <p>Unwind and discover joy.</p>
+                <p>
+                  Ithraa Alkhair, Makkah - Jeddah Expy. Road Nayomi, Makkah
+                  24225
+                </p>
               </div>
             </div>
           </div>
@@ -397,10 +419,9 @@
       </div>
     </section>
     <!-- end section -->
-    <!-- start section -->
-    <!-- about  -->
-    <section style="position: relative;">
-      
+
+    <!-- SECTION about -->
+    <section style="position: relative">
       <div
         class="background-position-center background-repeat about-wrap sm-pt-10 sm-pb-10"
         style="
@@ -409,7 +430,7 @@
           padding-bottom: 100px;
         "
       >
-        <div class="container ">
+        <div class="container">
           <div class="row align-items-center mb-12 md-mb-0">
             <div
               class="col-lg-5 md-mb-50px"
@@ -451,7 +472,7 @@
               </div>
             </div>
             <div class="col-lg-6 position-relative offset-lg-1 about-email">
-              <span
+              <!-- <span
                 class="fs-90 position-absolute left-60px md-left-100px sm-left-70px xs-left-10px top-90px xs-top-50px text-dark-gray fw-700 z-index-1"
                 data-bottom-top="transform: translateY(50px) scale(1,1)"
                 data-top-bottom="transform: translateY(-50px) scale(1,1)"
@@ -462,17 +483,14 @@
                   <span class="text-dark-gray">
                     care@ithraa.group
                   </span>
-              </span>
+              </span> -->
               <div
                 class="w-75 overflow-hidden position-relative xs-w-80 border-radius-4px float-end"
                 data-anime='{ "effect": "slide", "color": "#A0875B", "direction":"rl", "easing": "easeOutQuad", "duration": 600, "delay":400}'
               >
-                <img
-                  class="w-100"
-                  src="images/hushaan-fromtinyisles-EWtprB5HAL0-unsplash.jpg"
-                  alt=""
-                "
-                />
+                <img class="w-100"
+                src="images/hushaan-fromtinyisles-EWtprB5HAL0-unsplash.jpg"
+                alt="" " />
               </div>
               <div
                 class="position-absolute left-minus-70px md-left-15px bottom-minus-50px w-55 overflow-hidden"
@@ -590,7 +608,8 @@
       </div>
     </section>
     <!-- end section -->
-    <!-- start section -->
+
+    <!-- SECTION services -->
     <section
       class="bg-very-light-gray overlap-height position-relative background-position-center background-repeat"
       style="background-image: url('images/vertical-center-line-bg-dark.svg')"
@@ -680,7 +699,7 @@
                       class="content-wrap p-40px xs-p-30px last-paragraph-no-margin"
                     >
                       <i
-                        class="line-icon-Hotel align-middle icon-extra-large text-white "
+                        class="line-icon-Hotel align-middle icon-extra-large text-white"
                       ></i>
                       <p
                         class="text-white opacity-7 lh-30 sm-w-70 xs-w-100 mx-auto"
@@ -877,8 +896,8 @@
       </div>
     </section>
     <!-- end section -->
-   
-    <!-- start section -->
+
+    <!-- SECTION Packages -->
     <section class="p-0 overflow-hidden">
       <div class="container-fluid p-0">
         <div class="row g-0 bg-very-light-gray">
@@ -1017,8 +1036,7 @@
                       </h3>
                       <p>
                         ✈️Flight, ⭐5 Star Hotel, 💪Fitness center, 🍽️Catering,
-                        🍵Good breakfast,
-                        🚎Transportation
+                        🍵Good breakfast, 🚎Transportation
                       </p>
                       <div
                         class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100"
@@ -1113,7 +1131,6 @@
                                   src="./images/bed.png"
                                   alt="bed"
                                 />
-                              
                               </div>
                             </div>
                             <div
@@ -1190,8 +1207,7 @@
                       </h3>
                       <p>
                         ✈️Flight, ⭐5 Star Hotel, 💪Fitness center, 🍽️Catering,
-                        🍵Good breakfast,
-                        🚎Transportation
+                        🍵Good breakfast, 🚎Transportation
                       </p>
                       <div
                         class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100"
@@ -1286,7 +1302,6 @@
                                   src="./images/bed.png"
                                   alt="bed"
                                 />
-                            
                               </div>
                             </div>
                             <div
@@ -1365,8 +1380,7 @@
                       </h3>
                       <p>
                         ✈️Flight, ⭐5 Star Hotel, 💪Fitness center, 🍽️Catering,
-                        🍵Good breakfast,
-                        🚎Transportation
+                        🍵Good breakfast, 🚎Transportation
                       </p>
                       <div
                         class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100"
@@ -1458,7 +1472,6 @@
                                 src="./images/bed.png"
                                 alt="bed"
                               />
-                           
                             </div>
                             <div
                               class="feature-box-content last-paragraph-no-margin"
@@ -1530,15 +1543,14 @@
                       class="d-flex align-items-xl-start align-items-center text-center text-xl-start flex-column justify-content-center h-100"
                     >
                       <span class="text-base-color fw-500">
-                        Departure 02 Jun 2024 |  Return 25 Jun 2024
+                        Departure 02 Jun 2024 | Return 25 Jun 2024
                       </span>
                       <h3 class="text-dark-gray mb-15px alt-font">
                         Popular facilities
                       </h3>
                       <p>
                         ✈️Flight, ⭐5 Star Hotel, 💪Fitness center, 🍽️Catering,
-                        🍵Good breakfast,
-                        🚎Transportation
+                        🍵Good breakfast, 🚎Transportation
                       </p>
                       <div
                         class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100"
@@ -1630,7 +1642,6 @@
                                 src="./images/bed.png"
                                 alt="bed"
                               />
-                            
                             </div>
                             <div
                               class="feature-box-content last-paragraph-no-margin"
@@ -1669,7 +1680,9 @@
                             >
                               Departure 09 Jun 2024
                             </span> -->
-                            <div style="font-size: 28px">Luxury Shifting Package</div>
+                            <div style="font-size: 28px">
+                              Luxury Shifting Package
+                            </div>
                           </div>
                         </div>
                         <div
@@ -1706,8 +1719,7 @@
                       </h3>
                       <p>
                         ✈️Flight, ⭐5 Star Hotel, 💪Fitness center, 🍽️Catering,
-                        🍵Good breakfast,
-                        🚎Transportation
+                        🍵Good breakfast, 🚎Transportation
                       </p>
                       <div
                         class="row row-cols-1 row-cols-lg-3 row-cols-sm-3 justify-content-center mt-25px md-mt-15px g-0 w-100"
@@ -1823,7 +1835,8 @@
       </div>
     </section>
     <!-- end section -->
-    <!-- start section -->
+
+    <!-- SECTION Review -->
     <section
       class="background-position-center background-repeat overlap-height position-relative mt-7 md-mt-5"
       style="background-image: url('images/vertical-center-line-bg.svg')"
@@ -1930,10 +1943,7 @@
               Check all <strong>3,583</strong> exclusive visitor reviews on<a
                 href="#"
                 class="d-inline-block align-middle ms-10px"
-                ><img
-                  src="/images/LOGO COLOR.png"
-                  class="h-40px"
-                  alt=""
+                ><img src="/images/LOGO COLOR.png" class="h-40px" alt=""
               /></a>
             </div>
           </div>
@@ -1964,8 +1974,14 @@
             transform: translate(-50%, -50%);
           "
         >
-          <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; " class="country-flag">
-            
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(3, minmax(0, 1fr));
+              gap: 30px;
+            "
+            class="country-flag"
+          >
             <img
               style="
                 object-fit: cover;
@@ -2047,13 +2063,12 @@
               alt=""
             />
             <img
-          class="grid-flag-res"
+              class="grid-flag-res"
               style="
                 object-fit: cover;
                 width: 100px;
                 height: 100px;
                 border-radius: 100%;
-           
               "
               src="./images/Flags/Flag-Italy.jpg"
               alt=""
@@ -2063,17 +2078,20 @@
 
         <div></div>
       </div>
-      
     </section>
     <!-- end section -->
 
     <!-- section start -->
     <!-- contact us -->
-    <section class="contact-us mt-10 mb-10 md-mt-5 md-mb-5" style="width: 100%;" data-aos="fade-down">
+    <section
+      class="contact-us mt-10 mb-10 md-mt-5 md-mb-5"
+      style="width: 100%"
+      data-aos="fade-down"
+    >
       <div class="container">
         <h3 style="text-align: center">Contact Us</h3>
         <form
-        class="form-contact-us"
+          class="form-contact-us"
           style="
             display: flex;
             justify-content: space-between;
@@ -2082,8 +2100,8 @@
           "
         >
           <img
-          class="form-contact-img"
-            style="width: 30%; object-fit: cover;"
+            class="form-contact-img"
+            style="width: 30%; object-fit: cover"
             src="https://i.pinimg.com/originals/13/fa/be/13fabe368d08211706da14d461727b50.gif"
             alt=""
           />
@@ -2120,7 +2138,7 @@
 
     <!-- section end -->
 
-    <!-- start footer -->
+    <!-- SECTION footer -->
     <footer
       class="bg-very-light-gray pb-50px sm-pt-20px xs-pb-30px background-repeat background-position-center sm-background-image-none"
       style="background-image: url('images/vertical-center-line-bg-dark.svg')"
@@ -2185,39 +2203,6 @@
         <div
           class="row row-cols-3 row-cols-lg-5 row-cols-sm-3 align-items-center justify-content-center mb-4 md-mb-50px xs-mb-40px instagram-follow-api position-relative"
         >
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img
-                  src="images/demo-hotel-and-resort-instagram-01.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img
-                  src="images/demo-hotel-and-resort-instagram-02.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
-          <div class="col instafeed-grid md-mb-30px xs-mb-15px">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img
-                  src="images/demo-hotel-and-resort-instagram-03.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
           <div class="col instafeed-grid">
             <figure class="border-radius-0px">
               <a href="https://www.instagram.com/" target="_blank"
@@ -2229,17 +2214,7 @@
               ></a>
             </figure>
           </div>
-          <div class="col instafeed-grid">
-            <figure class="border-radius-0px">
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img
-                  src="images/demo-hotel-and-resort-instagram-05.jpg"
-                  class="insta-image"
-                  alt="" /><span class="insta-icon"
-                  ><i class="fa-brands fa-instagram"></i></span
-              ></a>
-            </figure>
-          </div>
+
           <div class="absolute-middle-center z-index-1 w-auto">
             <a
               href="https://www.instagram.com/"
@@ -2277,7 +2252,9 @@
           >
             <ul class="footer-navbar fs-17 fw-600">
               <li class="nav-item active">
-                <a href="demo-hotel-and-resort.html" class="nav-link">Home</a>
+                <a href="demo-hotel-and-resort.html" class="nav-link"
+                  >Packages</a
+                >
               </li>
               <li class="nav-item">
                 <a href="demo-hotel-and-resort-about-us.html" class="nav-link"
@@ -2286,22 +2263,22 @@
               </li>
               <li class="nav-item">
                 <a href="demo-hotel-and-resort-rooms.html" class="nav-link"
-                  >Rooms</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="demo-hotel-and-resort-amenities.html" class="nav-link"
-                  >Amenities</a
+                  >Services</a
                 >
               </li>
               <li class="nav-item">
                 <a href="demo-hotel-and-resort-bistro.html" class="nav-link"
-                  >Bistro</a
+                  >Careers</a
                 >
               </li>
               <li class="nav-item">
                 <a href="demo-hotel-and-resort-contact.html" class="nav-link"
-                  >Contact</a
+                  >Strategic Partners</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="demo-hotel-and-resort-contact.html" class="nav-link"
+                  >Contact Us</a
                 >
               </li>
             </ul>
@@ -2361,14 +2338,16 @@
     <script type="text/javascript" src="js/vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
-
-    
-
-<!-- aos -->
+    <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
+    <!-- ANCHOR slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="./js/slider.js"></script>
   </body>
 
   <!-- Mirrored from craftohtml.themezaa.com/demo-hotel-and-resort.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Sep 2024 17:24:46 GMT -->
