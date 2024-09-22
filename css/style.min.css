@@ -18468,6 +18468,7 @@ nav input {
 
 .subnav-space {
   display: none;
+  width: 20%;
 }
 
 @media screen and (max-width: 970px) {
