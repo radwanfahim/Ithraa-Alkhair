@@ -64,10 +64,10 @@ section.extra-big-section {
     html {
     font-size: 12px;
 }
-section {
+/* section {
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 section.half-section {
     padding-top: 40px;
     padding-bottom: 40px;

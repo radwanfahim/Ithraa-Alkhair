@@ -18511,6 +18511,20 @@ nav input {
  .wrapper .left-side-nav-mobile{
     display: block;
   }
+
+  /* country flag */
+  .country-flag{
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    justify-items: center !important;
+    
+  }
+.grid-flag-res{
+  justify-self: center;
+  grid-column: span 2 / span 2;
+}
+ 
 }
 
 /* nav item */
