@@ -1,18 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;
-    400;
-    500;
-    600;
-    700;
-    800&amp;
-    display=swap);
-@import url(https: //fonts.googleapis.com/css2?family=Inter:wght@200;
-    300;
-    400;
-    500;
-    600;
-    700;
-    800;
-    900&display=swap);
+
 body,
 html {
   font-size: 16px;
@@ -47,8 +33,6 @@ body {
   -webkit-text-stroke-width: 1px;
 }
 :root {
-  --alt-font: "Plus Jakarta Sans", sans-serif;
-  --primary-font: "Inter", sans-serif;
   --base-color: #2946f3;
   --white: #ffffff;
   --black: #000000;
@@ -87,12 +71,7 @@ body {
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
 }
-.alt-font {
-  font-family: var(--alt-font);
-}
-.primary-font {
-  font-family: var(--primary-font) !important;
-}
+
 body {
   font-family: var(--primary-font);
   line-height: 30px;
@@ -1834,7 +1813,6 @@ textarea:focus {
 }
 .swiper-number-pagination-style-02 .swiper-number .swiper-pagination-bullet {
   position: relative;
-  font-family: var(--alt-font);
   font-size: 15px;
   display: block;
   color: var(--white);
@@ -8954,7 +8932,6 @@ blockquote footer {
   text-transform: uppercase;
   letter-spacing: 0.5px;
   width: auto;
-  font-family: var(--alt-font);
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -10292,7 +10269,6 @@ blockquote footer {
   display: flex;
 }
 .countdown-style-01 .counter-container .countdown-box {
-  font-family: var(--alt-font);
   color: var(--dark-gray);
   background-color: var(--white);
   width: 130px;

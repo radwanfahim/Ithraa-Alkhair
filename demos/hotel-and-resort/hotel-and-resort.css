@@ -2,25 +2,39 @@
     Crafto - Hotel and resort
 ====================================== */
 /* font */
-@import url("https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* variable */
 :root {
   --base-color: #ac8d56;
   --medium-gray: #817f7c;
   --very-light-gray: #f4f1ed;
-  --alt-font: "Rufina", serif;
-  --primary-font: "Urbanist", sans-serif;
 }
 /* reset */
 body {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.3px;
+ 
 }
 html {
   overflow-x: hidden;
 }
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 section.half-section {
   padding-top: 70px;
   padding-bottom: 70px;
