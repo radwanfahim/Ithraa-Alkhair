@@ -18616,4 +18616,13 @@ nav input {
   transform: translateY(-50%) rotate(-90deg);
 }
 
+.contact-us{
+  position: relative;
+}
 
+.contact-us .contact-us-bg-img{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  transform: rotate(180deg);
+}
