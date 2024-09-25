@@ -2,7 +2,7 @@ $(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
   dots: false,
-  nav: true,
+  nav: false,
   mouseDrag: false,
   autoplay: true,
   animateOut: "slideOutUp",

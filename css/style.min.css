@@ -3171,7 +3171,7 @@ textarea:focus {
 }
 .bg-base-color,
 .header-cart-icon .cart-count {
-  background-color: var(--base-color);
+  background-color: #00b2a2;
 }
 .theme-demos .buy-theme .theme-wrapper {
   padding: 0;
@@ -11213,7 +11213,7 @@ blockquote footer {
 .icon-with-text-style-10 .feature-box-icon:before {
   width: 100%;
   height: 50%;
-  background-color: var(--base-color);
+  background-color: #00b2a2;
   opacity: 0.12;
   z-index: -1;
   content: "";
@@ -18129,6 +18129,7 @@ footer .footer-navbar .nav-item:last-child a {
   font-size: 19px;
   cursor: pointer;
   color: #00b2a2;
+  
   z-index: 1;
 }
 
@@ -18353,7 +18354,7 @@ nav input {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  background-color: #00b2a2;
+  background-color: #00868a;
 
   border: none;
   border-radius: 25px;
@@ -18389,7 +18390,7 @@ nav input {
 }
 
 .guide-login:hover::before {
-  box-shadow: inset 0 0 0 10em #00868a;
+  box-shadow: inset 0 0 0 10em #00b2a2;
 }
 
 /* agent login */
@@ -18404,11 +18405,11 @@ nav input {
   font-weight: 600;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #c29978;
+  border: 1px solid #00868a;
   border-radius: 25px;
   outline: none;
   overflow: hidden;
-  color: #c29978;
+  color: #00868a;
   transition: color 0.3s 0.1s ease-out;
   text-align: center;
   z-index: 1;
@@ -18434,11 +18435,11 @@ nav input {
 
 .agent-login:hover {
   color: #fff;
-  border: 1px solid #c29978;
+  border: 1px solid #00b2a2;
 }
 
 .agent-login:hover::before {
-  box-shadow: inset 0 0 0 10em #c29978;
+  box-shadow: inset 0 0 0 10em #00b2a2;
 }
 
 .logo-subnav {
@@ -18624,5 +18625,7 @@ nav input {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  transform: rotate(180deg);
+  object-fit: cover;
 }
+
+
