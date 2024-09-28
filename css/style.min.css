@@ -18337,6 +18337,13 @@ ul > li {
   .nav-links .mobile-item:hover {
     background: #3a3b3c;
   }
+  .footer-container{
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    transform: translate(0, 0) !important;
+
+  }
 }
 nav input {
   display: none;
