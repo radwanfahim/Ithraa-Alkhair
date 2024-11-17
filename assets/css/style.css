@@ -648,6 +648,14 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
+  align-items: center;
+  gap: 35px;
+  width: 100%;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.about-section-04 .wrapper .wrapper-img-01 .wrapper-content .wrapper-text {
 }
 
 /* footer start */
