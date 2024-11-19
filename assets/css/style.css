@@ -756,7 +756,7 @@ header {
   position: relative;
 }
 
-.about-section-05 .wrapper-container  {
+.about-section-05 .wrapper-container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -789,6 +789,120 @@ header {
 }
 .about-section-05 .wrapper-02 .wrapper-ico ul:hover {
   cursor: pointer;
+}
+
+/* ANCHOR services */
+.services-section-01 {
+  position: relative;
+}
+
+.services-section-01 .wrapper-01 h1 .text-01 {
+  color: #00b5a4;
+  font-size: 56px;
+  font-weight: 100;
+}
+
+.services-section-01 .wrapper-01 h1 .text-02 {
+  position: relative;
+  color: #c29979;
+  font-size: 56px;
+  font-weight: bolder;
+}
+.services-section-01 .wrapper-01 h1 .text-02::after {
+  content: "";
+  border: 3px solid #c29979;
+  width: 1em;
+  position: absolute;
+  right: 105%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.services-section-01 .wrapper-01 h1 .text-02::before {
+  content: "";
+  border: 3px solid #c29979;
+  width: 1em;
+  position: absolute;
+  left: 105%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.services-section-02 {
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+}
+
+.services-section-02 .img-01 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.services-section-02 .wrapper-01 {
+  width: 825px;
+  height: 500px;
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  filter: brightness(0.85);
+}
+.services-section-02 .wrapper-01 .layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.services-section-02 .wrapper-01 .layer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.services-section-02 .wrapper-01 .layer h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 500px;
+}
+.services-section-02 .wrapper-01 .layer p {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.services-section-03 .text-01 {
+  color: #008086;
+  font-size: 28px;
+  font-weight: bolder;
+  width: 50%;
+  line-height: 40px;
+}
+.services-section-03 .text-01 span {
+  color: #c29979;
+}
+
+.services-section-03 .wrapper-01 {
+  position: relative;
+}
+.services-section-03 .wrapper-01 .box-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-section-03 .wrapper-01 .bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* footer start */
