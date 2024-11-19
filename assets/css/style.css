@@ -878,14 +878,14 @@ header {
   margin-top: 25px;
 }
 
-.services-section-03 .text-01 {
+.services-section-03 .main-text {
   color: #008086;
   font-size: 28px;
   font-weight: bolder;
   width: 50%;
   line-height: 40px;
 }
-.services-section-03 .text-01 span {
+.services-section-03 .main-text span {
   color: #c29979;
 }
 
@@ -903,6 +903,29 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.services-section-03 .wrapper-01 .text-wrapper .text-01 {
+  position: absolute;
+  top: -60%;
+  left: 0;
+  width: 344px;
+}
+
+.services-section-03 .wrapper-01 .text-wrapper .text-style h1 {
+  color: #99dde5;
+  font-size: 64px;
+  font-weight: bold;
+}
+.services-section-03 .wrapper-01 .text-wrapper .text-style h3 {
+  color: #008086;
+  font-size: 24px;
+  font-weight: bold;
+}
+.services-section-03 .wrapper-01 .text-wrapper .text-style p {
+  color: #132e41;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 /* footer start */
