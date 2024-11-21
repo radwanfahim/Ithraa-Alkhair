@@ -889,6 +889,129 @@ header {
   color: #c29979;
 }
 
+.contact-section-01 {
+  position: relative;
+}
+
+.contact-section-01 .pattern {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;
+  position: relative;
+  z-index: -1;
+}
+
+.contact-section-01 .box-01 {
+  margin-top: -350px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #d1d1d1;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-section-01 .box-01 .text-01 {
+  color: #132e41;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.contact-section-01 .box-01 .text-02 {
+  color: #132e41;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.contact-section-01 .box-01 .wrapper {
+  margin: 50px 30px;
+}
+
+.contact-section-01 .wrapper form {
+  margin-top: 32px;
+}
+.contact-section-01 .wrapper form label {
+  display: block;
+  color: #161616;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contact-section-01 .wrapper form label::before {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+.contact-section-01 .wrapper form input {
+  display: block;
+  color: #6c737f;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  background-color: #f9fafb;
+  border-radius: 4px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  padding-right: 16px;
+}
+.contact-section-01 .wrapper form input:focus-visible {
+  outline: none;
+  box-shadow: 0px 5px 10px 0px rgb(100 100 100 / 50%);
+}
+
+.contact-section-01 .wrapper form .select {
+  appearance: none;
+  outline: none;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #f9fafb;
+  border: none;
+  padding: 10px 15px;
+  color: #272727;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+}
+.contact-section-01 .wrapper form .select:focus {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section-01 .wrapper form .last-child label::before {
+  content: "";
+}
+.contact-section-01 .wrapper form .last-child textarea {
+  display: block;
+  color: #6c737f;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  background-color: #f9fafb;
+  border-radius: 4px;
+  height: 100px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  padding: 20px;
+  resize: none;
+}
+.contact-section-01 .wrapper form .last-child textarea:focus-visible {
+  outline: none;
+  box-shadow: 0px 5px 10px 0px rgb(100 100 100 / 50%);
+}
+
+.contact-section-01 .wrapper form .btn-01 {
+  display: block;
+  background-color: #005c92;
+  width: 145.02px;
+  height: 47.03px;
+  outline: none;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+}
+
 /* footer start */
 footer .bg-img {
   background-image: url(/assets/image/Vector.png);
