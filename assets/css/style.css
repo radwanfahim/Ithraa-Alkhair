@@ -893,6 +893,7 @@ header {
   position: relative;
 }
 
+/* ANCHOR contact */
 .contact-section-01 .pattern {
   display: flex;
   justify-content: space-between;
@@ -1383,5 +1384,23 @@ footer p {
   .about-section-05 .wrapper-01 {
     width: 100% !important;
     margin-top: 20px !important;
+  }
+
+  .contact-section-01 .pattern {
+    display: none;
+  }
+
+  .contact-section-01 .box-01 {
+    margin-top: 100px !important;
+    border: none !important;
+  }
+
+  .contact-section-01 .box-01 .wrapper {
+    margin: 0 20px !important;
+  }
+  .contact-section-01 .box-01 .text-01 {
+    color: #132e41;
+    font-weight: bolder;
+    font-size: 24px;
   }
 }
