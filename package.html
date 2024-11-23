@@ -13,6 +13,12 @@
     />
     <link rel="stylesheet" href="assets/css/flickity.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -122,7 +128,53 @@
         </div>
 
         <!-- slider -->
-        <div class="box-02"></div>
+        <div class="box-02 mt-5">
+          <div class="swiper mySwiper" style="width: 800px; height: 500px">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1676925875726-5e8e130168bd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  class="rounded-4"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1575101261474-5cb5653bb416?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  class="rounded-4"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://images.unsplash.com/photo-1673289624560-74f051b14ce3?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                  class="rounded-4"
+                  style="width: 100%; height: 100%; object-fit: cover"
+                />
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+
+            <!-- Navigation buttons -->
+            <div
+              class="swiper-button-next"
+              style="color: #008086; font-size: 16px"
+            ></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+
+        <div class="box-03">
+          <h6>Flight</h6>
+          <div>
+            
+          </div>
+        </div>
       </div>
 
       <!-- right side -->
@@ -191,5 +243,30 @@
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".mySwiper", {
+          // Swiper parameters
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true, // Enables infinite loop
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+        });
+      });
+    </script>
   </body>
 </html>
