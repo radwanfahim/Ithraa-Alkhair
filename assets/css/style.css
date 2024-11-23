@@ -1013,6 +1013,47 @@ header {
   color: #fff;
 }
 
+/* ANCHOR Package */
+.package-section-01 {
+  position: relative;
+}
+
+.package-section-01 .wrapper-01 .header-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.package-section-01 .wrapper-01 .text-01 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.package-section-02 {
+  position: relative;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.package-section-02 .wrapper-01 {
+}
+.package-section-02 .wrapper-02 {
+  width: 30%;
+}
+.package-section-02 .wrapper-02 h6 {
+  color: #0000005b;
+}
+.package-section-02 .wrapper-02 .divider {
+  border: 1px solid #0000005b;
+  margin-bottom: 10px;
+}
+
 /* footer start */
 footer .bg-img {
   background-image: url(/assets/image/Vector.png);
