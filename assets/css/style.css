@@ -479,6 +479,35 @@ header {
   padding: 10px;
 }
 
+/* flags */
+.flags .flag-background {
+  background-image: url("../image/flag/world-map.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+}
+
+.flags .flag-background .wrapper {
+  max-width: 700px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  gap: 1.25rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flags .flag-background .wrapper img {
+  width: 200px;
+  object-fit: cover;
+  height: 100px;
+}
+
 /* ANCHOR about page */
 .about-section-01-desktop {
   position: relative;
@@ -1667,5 +1696,10 @@ footer p {
     color: #008086;
     font-size: 18px;
     margin-top: 1em;
+  }
+
+  /* flags */
+  .flags .flag-background {
+    height: 800px;
   }
 }
