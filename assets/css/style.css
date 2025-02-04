@@ -892,6 +892,51 @@ header {
   position: relative;
 }
 
+/* Dropdown Container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Button */
+.dropdown-button {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Links in the Dropdown */
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .services-section-03 .wrapper-01 {
   position: relative;
   width: 100%;
@@ -1173,6 +1218,34 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.hajj-package-section-01
+  .hotel-card-list
+  .hotel-card
+  .hotel-card-left
+  .star-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1em;
+}
+
+.hajj-package-section-01
+  .hotel-card-list
+  .hotel-card
+  .hotel-card-left
+  .text-start {
+  margin-top: 1.5em !important;
+  margin-bottom: 1.5em !important;
+}
+
+.hajj-package-section-01 .hotel-card-list .hotel-card .hotel-card-left {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 2em;
+  width: 80%;
+}
 /* .package-section-02 .wrapper-01 details:hover {
   filter: drop-shadow(5px 5px 4px #0a0a0a);
 } */
@@ -1186,6 +1259,45 @@ header {
   padding: 5px 10px 10px 20px;
   color: #252525;
   font-size: 1.1em;
+}
+
+.hajj-package-section-01 {
+  padding-top: 15em;
+}
+
+.hajj-package-section-01 .hotel-card-list .hotel-card {
+  margin-top: 5em;
+  background-color: #ebf9f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5em;
+  flex-direction: row-reverse;
+}
+
+.hajj-package-section-01 .hotel-card-list .hotel-card .divider {
+  width: 100%;
+  border: 0.5px solid rgb(67, 67, 67);
+  margin-bottom: 1em;
+}
+
+.hajj-package-section-01 .hotel-card-list .hotel-card .hotel-price-wrapper {
+  width: 20%;
+  background-color: #00e9d222;
+  height: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  margin-right: 1.5em;
+}
+
+.hajj-package-section-01 .hotel-card-list .hotel-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 1.5em;
+  border-radius: 20px;
 }
 
 /* footer start */
@@ -1701,5 +1813,46 @@ footer p {
   /* flags */
   .flags .flag-background {
     height: 800px;
+  }
+
+  .hajj-package-section-01 .hotel-card-list .hotel-card {
+    flex-direction: column;
+  }
+
+  .hajj-package-section-01 .hotel-card-list .hotel-card .hotel-price-wrapper {
+    width: 100%;
+    background-color: #00e9d222;
+    height: 100%;
+    padding: 1em;
+    margin-top: 1em;
+  }
+  .hajj-package-section-01 .hotel-card-list .hotel-card .hotel-card-left {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hajj-package-section-01 .hotel-card-list .hotel-card img {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 0em;
+  }
+  .hajj-package-section-01
+    .hotel-card-list
+    .hotel-card
+    .hotel-card-left
+    .star-wrapper {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .hajj-package-section-01
+    .hotel-card-list
+    .hotel-card
+    .hotel-card-left
+    .star-wrapper
+    .rating-area
+    ul {
+    justify-content: center !important;
+    margin-top: 1em;
   }
 }
