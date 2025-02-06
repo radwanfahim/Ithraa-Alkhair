@@ -1300,6 +1300,172 @@ header {
   border-radius: 20px;
 }
 
+/* ANCHOR strategic-partner */
+.strategic-partner-section-01 {
+  position: relative;
+}
+
+.strategic-partner-section-01 .wrapper-01 .header-img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.strategic-partner-section-01 .wrapper-01 .text-01 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.strategic-partner-section-02 {
+  margin-top: 5em;
+  width: 70%;
+}
+
+.strategic-partner-section-02 .card-wrapper .text {
+  text-align: center;
+  color: #505050;
+  margin-top: 0.5em;
+}
+
+.strategic-partner-section-02 .card-wrapper {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.strategic-partner-section-02 .card-wrapper:hover {
+  box-shadow: 0 14px 15px rgba(0, 0, 0, 0.2);
+}
+
+.strategic-partner-section-02 .card-wrapper .flag-italy {
+  background-image: url(https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/it.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+
+.strategic-partner-section-02 .card-wrapper .flag-usa {
+  background-image: url(https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/us.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+.strategic-partner-section-02 .card-wrapper .flag-ca {
+  background-image: url(https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/ca.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+.strategic-partner-section-02 .card-wrapper .flag-ge {
+  background-image: url(https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/de.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+.strategic-partner-section-02 .card-wrapper .flag-fr {
+  background-image: url(https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/fr.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+.strategic-partner-section-02 .card-wrapper .flag-be {
+  background-image: url(http://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/flags/4x3/be.svg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15em;
+  line-height: 1em;
+}
+
+.strategic-partner-section-02 .card-wrapper i {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
+.partner-section-02 {
+  margin-top: 5em;
+}
+
+.partner-section-02 .card-wrapper {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.partner-section-02 .card-wrapper .hajj-ico {
+  background-image: url(https://services.udtn.com/Uploads/Images/Users/acc98143-dc82-48db-a8e5-1c07d6bda40a.png);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  background-position: center;
+  width: 15em;
+  line-height: 1em;
+}
+.partner-section-02 .card-wrapper .makkah-tour-ico {
+  background-image: url(https://services.udtn.com/Uploads/Images/Users/5dffa8a7-e13c-4f86-8cee-522fbc37c04e.jpeg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  background-position: center;
+  width: 15em;
+  line-height: 1em;
+}
+.partner-section-02 .card-wrapper .isra-ico {
+  background-image: url(https://services.udtn.com/Uploads/Images/Users/63a11bc1-9007-414f-b10f-0a0b8004834d.png);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  background-position: center;
+  width: 15em;
+  line-height: 1em;
+}
+
+.partner-section-02 .card-wrapper .isra-ico {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.partner-section-02 .card-wrapper .hajj-ico {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+.partner-section-02 .card-wrapper .makkah-tour-ico {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+}
+
 /* footer start */
 footer .bg-img {
   background-image: url(/assets/image/Vector.png);
@@ -1854,5 +2020,8 @@ footer p {
     ul {
     justify-content: center !important;
     margin-top: 1em;
+  }
+  .strategic-partner-section-02 {
+    width: 100%;
   }
 }
